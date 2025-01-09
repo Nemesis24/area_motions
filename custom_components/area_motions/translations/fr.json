@@ -1,0 +1,36 @@
+{
+  "config": {
+    "flow_title": "Détecteurs de mouvement d'Area",
+    "step": {
+      "user": {
+        "title": "Configuration Area Motions",
+        "description": "Vous pouvez exclure des détecteurs de mouvement pour chaque pièce en les sélectionnant.\n\nL'intégration ne détecte que les détecteurs de mouvement qui sont affectés à une pièce.",
+        "data": {
+          "area_*": "Détecteurs de mouvement à exclure de {}"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Une seule instance est autorisée."
+    }
+  },
+  "state_attributes": {
+    "count": "Nombre de détecteurs de mouvement actifs",
+    "total": "Nombre total de détecteurs de mouvement",
+    "count_of": "Nombre de détecteurs de mouvement actifs sur le total",
+    "motions_active": "Détecteurs de mouvement actifs",
+    "motions_inactive": "Détecteurs de mouvement inactifs",
+    "excluded_motions": "Détecteurs de mouvement exclus"
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configuration Area Motions",
+        "description": "Vous pouvez exclure des détecteurs de mouvement pour chaque pièce en les sélectionnant.\n\nL'intégration ne détecte que les détecteurs de mouvement qui sont affectés à une pièce.",
+        "data": {
+          "area_*": "Détecteurs de mouvement à exclure de {}"
+        }
+      }
+    }
+  }
+}

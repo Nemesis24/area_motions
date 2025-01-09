@@ -1,0 +1,36 @@
+{
+  "config": {
+    "flow_title": "Area Motions",
+    "step": {
+      "user": {
+        "title": "Area Motions Configuration",
+        "description": "You can exclude motion sensors for each room by selecting them.\n\nThe integration only detects motion sensors that are assigned to a room.",
+        "data": {
+          "area_*": "Motion sensors to exclude from {}"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Only a single instance is allowed."
+    }
+  },
+  "state_attributes": {
+    "count": "Number of active motion sensors",
+    "total": "Total number of motion sensors",
+    "count_of": "Number of active motion sensors out of total",
+    "motions_active": "Active motion sensors",
+    "motions_inactive": "Inactive motion sensors",
+    "excluded_motions": "Excluded motion sensors"
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Area Motions Configuration",
+        "description": "You can exclude motion sensors for each room by selecting them.\n\nThe integration only detects motion sensors that are assigned to a room.",
+        "data": {
+          "area_*": "Motion sensors to exclude from {}"
+        }
+      }
+    }
+  }
+}
