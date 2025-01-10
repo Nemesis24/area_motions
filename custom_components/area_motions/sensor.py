@@ -105,7 +105,7 @@ class RoomMotionsSensor(SensorEntity):
 
         for motion in self._motions:
             self.async_on_remove(
-                self.hass.helpers.event.async_track_state_change(
+                self.hass.helpers.event.async_track_state_change_event(
                     motion, async_state_changed
                 )
             )
